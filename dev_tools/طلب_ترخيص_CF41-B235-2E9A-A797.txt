@@ -1,0 +1,6 @@
+{
+  "shop_name": "EL WENSH",
+  "device_code": "CF41-B235-2E9A-A797",
+  "hwid": "cf41b2352e9aa797f1546abd58f4a1223c1d0ccabc906336c7d9dac2f8a1b8f3",
+  "requested_at": "2026-07-25"
+}

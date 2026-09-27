@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Cortex mark">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- abstract node network forming a "C" - same geometry as cortex_icon.svg,
+  minus the rounded-square background, so it can sit directly on any surface
+  (splash background, sidebar, login screen). -->
+  <g fill="none" stroke="url(#markGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 128 62 L 92 78 L 78 100 L 92 122 L 128 138"/>
+  </g>
+  <g fill="url(#markGrad)">
+    <circle cx="128" cy="62" r="9"/>
+    <circle cx="92" cy="78" r="7"/>
+    <circle cx="78" cy="100" r="8.5"/>
+    <circle cx="92" cy="122" r="7"/>
+    <circle cx="128" cy="138" r="9"/>
+  </g>
+  <circle cx="100" cy="100" r="3" fill="#eafff9" opacity="0.85"/>
+</svg>
